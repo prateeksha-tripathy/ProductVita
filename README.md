@@ -22,6 +22,12 @@ An amazing tool to accelerate your everday productivity that helps you to improv
 We support your contributions and appreciate yor efforts for the same. We welcome any changes and issues from your side. Feel free to raise issues that is useful for this site.
 
 # Team Blazzer 
-- Rohit Sharma (github link : https://github.com/rohit0033)
-- Prateeksha Tripathy (github link : https://github.com/prateeksha-tripathy)
+- Rohit Sharma <br>(github link : https://github.com/rohit0033)
+- Prateeksha Tripathy <br>(github link : https://github.com/prateeksha-tripathy)
 
+# Demo Link
+
+You can view our project from the link provided below.<br>
+https://productvita.netlify.app/
+
+ 
