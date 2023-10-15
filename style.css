@@ -391,3 +391,94 @@ header .container {
     font-size: 0.8rem;
   }
 }
+
+/* Dropdown Styles */
+.links ul li.dropdown-parent {
+  position: relative;
+}
+
+.links ul li.dropdown-parent ul.dropdown {
+  position: absolute;
+  /* margin-right: 30px; */
+  background-color: var(--mainColor);
+  display: none;
+  flex-direction: column;
+  width: 240px;
+  
+  border-radius: 7px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  
+
+  /*glassmorphism */
+  background: rgba(11, 104, 167, 0.4);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+}
+
+
+.links ul li.dropdown-parent:hover ul.dropdown {
+  display: flex;
+  margin-right: 90px;
+
+}
+
+.links ul li.dropdown-parent ul.dropdown li {
+  height: 2rem;
+  line-height: 2rem;
+  width: 100%;
+  padding-left: 9px;
+  
+  display: flex;
+  justify-content: center;
+  margin-right: 90px;
+}
+
+
+.links ul li.dropdown-parent ul.dropdown li:hover {
+  background-color: var(--hoverColor);
+  height: 2rem;
+  gap: 1rem;
+  margin-left: 90px; 
+  
+  /* justify-content: center; */
+  /* padding-left: 9px;  */
+  /* text-align: center;
+  align-items: center; */
+  
+}
+
+
+#note{
+  text-align: center;
+  display: flex;
+}
+
+/* Add these CSS rules to change the text color to black */
+#note a, .dropdown ul li a {
+  color: black;
+}
+
+
+@media screen and (max-width: 870px) {
+  .links ul li.dropdown-parent ul.dropdown {
+    width: 100%;
+    left: 100%;
+    
+  }
+
+  .links ul li.dropdown-parent:hover ul.dropdown {
+    display: block;
+    position: static;
+    width: 100%;
+  }
+
+  .links ul li.dropdown-parent ul.dropdown li {
+    padding: 9px 10px;
+  }
+}
+
